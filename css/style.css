@@ -350,9 +350,9 @@ body{
 	text-align:center;
 }
 .agileits-title h2,.agileits-title h3{
-    font-size: 4em;
+    font-size: 5em;
     color: #ff9800;
-    margin: 0;
+    margin: 5;
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -636,6 +636,27 @@ ul.simplefilter {
     -ms-transition-delay: 1s;
     transition-delay: 1s;
 }
+.portfolio figcaption h4 {
+    color: rgb(255, 201, 140);
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 2em;
+    letter-spacing: 3px;
+    font-weight: 700;
+	font-family: 'Roboto Condensed', sans-serif;
+    position: relative;
+    margin-top: 50px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    -ms-transition: all .5s;
+    transition: all .5s;
+    -webkit-transition-delay: 1s;
+    -moz-transition-delay: 1s;
+    -o-transition-delay: 1s;
+    -ms-transition-delay: 1s;
+    transition-delay: 1s;
+}
 .portfolio figcaption h3 span{
 	text-transform: capitalize;
     letter-spacing: 1px;
@@ -762,6 +783,7 @@ ul.simplefilter {
 }
 .team-info img{
 	width:100%;
+	margin-bottom: 2em;
 }
 .team-caption h4{
     color: #FFFFFF;
@@ -841,6 +863,7 @@ ul.simplefilter {
     bottom: -105%;
     text-align: center;
     width: 100%;
+	margin-bottom: 2em;
     height: 154px;
     -webkit-transition: .5s all;
     transition: .5s all;
@@ -1386,7 +1409,7 @@ ul.simplefilter {
 		margin-bottom: 2em;
 	}
 	.agileits-team-grid:nth-child(3),.agileits-team-grid:nth-child(4){
-		margin:0;
+		margin:1;
 	}
 	.w3-agileits-blog-grid:nth-child(2) {
 		margin: 2em 0 0 0;
