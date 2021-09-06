@@ -6,7 +6,7 @@
  @license : Licensed under CCAttribution-ShareAlike
  @website : http://chocolat.insipi.de
  
-*/
+
 (function($) {
 	images = [];
 	var calls = 0;
@@ -292,3 +292,4 @@
 	
 };
 })(jQuery);
+*/

@@ -454,7 +454,7 @@ body{
 /*-- //markets --*/
 /*-- portfolio --*/
 .filtr-item {
-	padding: 0;
+	padding: 1cm;
 	width: 33.3335%;
 	float: left;
 }
@@ -576,6 +576,8 @@ ul.simplefilter {
 	display: block;
 	cursor: pointer;
 	overflow: hidden;
+	border-radius: 20%;
+	box-shadow: 0 0 0 2px rgb(255, 123, 0);
 }
 .portfolio figure:hover figcaption {
 	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
@@ -587,6 +589,7 @@ ul.simplefilter {
 	-ms-transform: rotate(0);
 	transform: rotate(0);
 	top: 0;
+	border-radius: 10%;
 }
 .portfolio figcaption {
 	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
@@ -598,20 +601,21 @@ ul.simplefilter {
 	top: -100%;
 	background: rgba(0,0,0,.5);
 	color: #fff;
-	-webkit-transition: all .5s ease;
-	-moz-transition: all .5s ease;
-	-o-transition: all .5s ease;
-	-ms-transition: all .5s ease;
-	transition: all .5s ease;
-	-webkit-transition-delay: .5s;
-	-moz-transition-delay: .5s;
-	-o-transition-delay: .5s;
-	-ms-transition-delay: .5s;
-	transition-delay: .5s;
+	-webkit-transition: all .1s ease;
+	-moz-transition: all .1s ease;
+	-o-transition: all .1s ease;
+	-ms-transition: all .1s ease;
+	transition: all .1s ease;
+	-webkit-transition-delay: .1s;
+	-moz-transition-delay: .1s;
+	-o-transition-delay: .1s;
+	-ms-transition-delay: .1s;
+	transition-delay: .1s;
 	-webkit-transform: rotate(360deg);
 	-moz-transform: rotate(360deg);
 	-o-transform: rotate(360deg);
 	-ms-transform: rotate(360deg);
+	border-radius: 10%;
 	transform: rotate(360deg);
 }
 .portfolio figcaption h3 {
@@ -625,16 +629,17 @@ ul.simplefilter {
     text-transform: uppercase;
     position: relative;
     margin-top: 105px;
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    -o-transition: all .5s;
-    -ms-transition: all .5s;
-    transition: all .5s;
-    -webkit-transition-delay: 1s;
-    -moz-transition-delay: 1s;
-    -o-transition-delay: 1s;
-    -ms-transition-delay: 1s;
-    transition-delay: 1s;
+    -webkit-transition: all .1s;
+    -moz-transition: all .1s;
+    -o-transition: all .1s;
+    -ms-transition: all .1s;
+    transition: all .1s;
+    -webkit-transition-delay: .1s;
+    -moz-transition-delay: .1s;
+    -o-transition-delay: .1s;
+    -ms-transition-delay: .1s;
+    transition-delay: .1s;
+	border-radius: 10%;
 }
 .portfolio figcaption h4 {
     color: rgb(255, 201, 140);
@@ -656,6 +661,7 @@ ul.simplefilter {
     -o-transition-delay: 1s;
     -ms-transition-delay: 1s;
     transition-delay: 1s;
+	border-radius: 10%;
 }
 .portfolio figcaption h3 span{
 	text-transform: capitalize;
@@ -780,10 +786,12 @@ ul.simplefilter {
 .team-info{
     position: relative;
     overflow: hidden;	
+	
 }
 .team-info img{
 	width:100%;
 	margin-bottom: 2em;
+	
 }
 .team-caption h4{
     color: #FFFFFF;
@@ -822,6 +830,22 @@ ul.simplefilter {
 }
 .team-caption ul li a i.fa.fa-facebook:hover {
     background: #3b5998;
+}
+.team-caption ul li a i.fa.fa-instagram{
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    border: solid 2px #FFF;
+    background: none;
+    color: #FFF;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.team-caption ul li a i.fa.fa-instagram:hover {
+    background: #ff5ca0;
 }
 .team-caption ul li a i.fa.fa-twitter{
     height: 30px;
@@ -1745,3 +1769,4 @@ ul.simplefilter {
   margin-right: auto;
   width: 50%;
 }
+.w3-center {text-align:center}
