@@ -1771,12 +1771,12 @@ ul.simplefilter {
 }
 .w3-center {text-align:center}
 hr.rounded {
-	border-top: 50px solid #ffaf19;
+	border-top: 30px solid #ffaf19;
 	border-radius: 5px;
 	margin-top: -3em;
   }
   hr.pounded {
-	border-top: 50px solid #ffaf19;
+	border-top: 30px solid #ffaf19;
 	border-radius: 5px;
 	margin-top: 2em;
   }
