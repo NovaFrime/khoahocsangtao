@@ -1770,3 +1770,46 @@ ul.simplefilter {
   width: 50%;
 }
 .w3-center {text-align:center}
+hr.rounded {
+	border-top: 50px solid #ffaf19;
+	border-radius: 5px;
+	margin-top: -3em;
+  }
+  hr.pounded {
+	border-top: 50px solid #ffaf19;
+	border-radius: 5px;
+	margin-top: 2em;
+  }
+  .grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	grid-gap: 1%;
+	margin-left: 13em;
+	margin-right: 13em;
+	
+	
+}
+.grid > div {
+	padding: 5%;
+	display: grid;
+	
+	place-items: center;
+}
+.grid > a div::before {
+	content: "";
+	display: block;
+	padding-bottom: 100%;
+	grid-area: 1;
+	
+}
+.grid > div img {
+	width: 100%;
+	grid-area: 1;
+	border-radius: 20%;
+	box-shadow: 0 0 0 2px rgb(255, 123, 0);
+	
+}
+.grid div img:hover{
+	background-color:rgb(255,0,0);
+	opacity:0.5;
+}
