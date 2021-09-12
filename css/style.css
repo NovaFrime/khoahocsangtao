@@ -1784,8 +1784,8 @@ hr.rounded {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 	grid-gap: 1%;
-	margin-left: 13em;
-	margin-right: 13em;
+	margin-left: 11em;
+	margin-right: 11em;
 	
 	
 }
