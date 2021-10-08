@@ -348,6 +348,7 @@ body{
     border-bottom: 1px dashed #ccc;
     padding-bottom: 1em;
 	text-align:center;
+	
 }
 .agileits-title h2,.agileits-title h3{
     font-size: 5em;
@@ -372,6 +373,10 @@ body{
     min-height: 30em;
     padding: 0;
 	position:relative;
+	box-shadow:
+    0 0 15px 7.5px #fff,  /* inner white */
+    0 0 25px 15px #f0f, /* middle magenta */
+    0 0 35px 22.5px #0ff;
 }
 .w3about-text {
     background: #f2f2f2;
@@ -1811,3 +1816,16 @@ hr.rounded {
 	background-color:rgb(255,0,0);
 	opacity:0.5;
 }
+canvas{ display:block} 
+/* ---- particles.js container ---- */ 
+
+#particles-js{
+	background-size:100%;
+	width: 355mm;
+	bottom: -1500mm;
+	height: 1800mm;
+	position:absolute;
+	background-repeat: no-repeat;
+  }
+	/* ---- stats.js ---- */ 
+
