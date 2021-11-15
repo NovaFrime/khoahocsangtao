@@ -1819,13 +1819,11 @@ hr.rounded {
 canvas{ display:block} 
 /* ---- particles.js container ---- */ 
 
-#particles-js{
-	background-size:100%;
-	width: 355mm;
-	bottom: -1500mm;
-	height: 1800mm;
-	position:absolute;
-	background-repeat: no-repeat;
+#particles-js {
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: -100;
   }
 	/* ---- stats.js ---- */ 
 
